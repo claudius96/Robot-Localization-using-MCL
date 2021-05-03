@@ -12,14 +12,14 @@
   <param name="initial_pose_y" value="0"/>
   <param name="initial_pose_a" value="4.7123"/>
   <param name="laser_min_range" value="-1.0"/>
-  <param name="laser_max_range" value="3.0"/>
-  <param name="laser_max_beams" value="50"/>
-  <param name="laser_z_hit" value="0.90"/>
-  <param name="laser_z_rand" value="0.1"/>
-  <param name="odom_alpha1" value="0.3"/>
-  <param name="odom_alpha2" value="0.3"/>
-  <param name="odom_alpha3" value="0.3"/>
-  <param name="odom_alpha4" value="0.3"/>
+  <param name="laser_max_range" value="5.0"/>
+  <param name="laser_max_beams" value="60"/>
+  <param name="laser_z_hit" value="0.80"/>
+  <param name="laser_z_rand" value="0.2"/>
+  <param name="odom_alpha1" value="0.03"/>
+  <param name="odom_alpha2" value="0.03"/>
+  <param name="odom_alpha3" value="0.03"/>
+  <param name="odom_alpha4" value="0.03"/>
 
 </node>
 
